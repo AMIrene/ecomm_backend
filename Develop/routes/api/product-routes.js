@@ -24,7 +24,7 @@ router.get('/', (req, res) => {
     .catch(err => {
      console.log(err);
      res.status(500).json(err);
-    })
+    });
 });
 
 // get one product
@@ -89,7 +89,7 @@ router.post('/', (req, res) => {
     .catch((err) => {
       console.log(err);
       res.status(400).json(err);
-    });
+    })
 });
 
 // update product
