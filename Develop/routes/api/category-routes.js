@@ -80,6 +80,7 @@ router.delete('/:id', (req, res) => {
     where: {
       id: req.params.id
     }
+  })
       .then(categoryData => {
         if (!categoryData) {
           res.status(404).json({ message: 'No category found with this id!' });
@@ -93,7 +94,7 @@ router.delete('/:id', (req, res) => {
       })
   });
 
-});
+
 
 module.exports = router;
 
