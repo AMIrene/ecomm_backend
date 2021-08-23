@@ -18,8 +18,8 @@ This project was focused on building the back end for an e-commerce site, using 
 
 ## Screen shots of Insomnia 
 
-![Using GET method to get all categories](Develop\assets\Insomnia_getsingletag.PNG)
-![Using GET method to get single tag](Develop\assets\Insomnia_getsingletag.PNG)
+![Using GET method to get all categories](Develop/assets/Insomnia_getsingletag.PNG)
+![Using GET method to get single tag](Develop/assets/Insomnia_getsingletag.PNG)
 
 
 ## User Story
